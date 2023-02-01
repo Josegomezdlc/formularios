@@ -2,13 +2,13 @@
 <html>
 
 <head>
-    <title>Formularios</title>
+    <title>Paco S.A.</title>
     <meta charset="UTF-8">
     <link href="estilos.css" rel="stylesheet" type="text/css">
 </head>
   
 <body>
-    <form>
+    <form action="factores.html" method="post">
       Nombre:
       <br>
       <input type="text">
@@ -16,6 +16,14 @@
       Apellido:
       <br>
       <input type="text">
+      <br>
+      Sexo:
+      <br>
+      <select name="lista_de_seleccion">
+        <option value="opcion1">Hombre</option>
+        <option value="opcion2">Mujer</option>
+        <option value="opcion3">Otro</option>
+      </select>
       <br>
       Edad:
       <br>
@@ -29,9 +37,37 @@
       <br>
       <input type="text">
       <br>
-      Porqué crees q deberíamos contratarte:
+      Lugar de nacimiento:
+      <br>
+      <input type="text">
+      <br>
+      Lugar de residencia:
+      <br>
+      <input type="text">
+      <br>
+      Tiempo que pretendes durar en la empresa:
+      <br>
+      <select name="lista_de_seleccion">
+        <option value="opcion1">-1año</option>
+        <option value="opcion2">+1año</option>
+        <option value="opcion3">5años</option>
+        <option value="opcion4">+5años</option>
+      </select>
+      <br>
+      Experiencia de trabajo:
+      <br>
+      <select name="lista_de_seleccion">
+        <option value="opcion1">Ninguna</option>
+        <option value="opcion2">-1 año</option>
+        <option value="opcion3">1-3años</option>
+        <option value="opcion4">+3años</option>
+      </select>
+      <br>
+        Porqué crees q deberíamos contratarte:
         <br>
         <textarea name="area_de_texto" rows="3" cols="50"></textarea>
+        <br>
+      
       <br><br>
       <input type="submit" value="Enviar datos">
       <input type="reset" value="Resetear">
