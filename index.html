@@ -2,13 +2,15 @@
 <html>
 
 <head>
-    <title>Paco S.A.</title>
-    <meta charset="UTF-8">
-    <link href="estilos.css" rel="stylesheet" type="text/css">
+  <title>Paco S.A.</title>
+  <meta charset="UTF-8">
+  <link href="estilos.css" rel="stylesheet" type="text/css">
 </head>
-  
+
 <body>
-    <form action="factores.html" method="post">
+  <form action="factores.html" method="post">
+    <fieldset>
+      <legend>Datos personales</legend>
       Nombre:
       <br>
       <input type="text">
@@ -45,6 +47,9 @@
       <br>
       <input type="text">
       <br>
+    </fieldset>
+    <fieldset>
+      <legend>Aportación a la empresa</legend>
       Tiempo que pretendes durar en la empresa:
       <br>
       <select name="lista_de_seleccion">
@@ -63,14 +68,16 @@
         <option value="opcion4">+3años</option>
       </select>
       <br>
-        Porqué crees q deberíamos contratarte:
-        <br>
-        <textarea name="area_de_texto" rows="3" cols="50"></textarea>
-        <br>
-      
-      <br><br>
-      <input type="submit" value="Enviar datos">
-      <input type="reset" value="Resetear">
-    </form>
-  </body>
+      Porqué crees q deberíamos contratarte:
+      <br>
+      <textarea name="area_de_texto" rows="3" cols="50"></textarea>
+      <br>
+    </fieldset>
+
+    <br><br>
+    <input type="submit" value="Enviar datos">
+    <input type="reset" value="Resetear">
+  </form>
+</body>
+
 </html>
